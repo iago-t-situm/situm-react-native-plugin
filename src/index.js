@@ -104,7 +104,7 @@ const SitumPlugin = {
     error?: Function,
     options?: LocationRequestOptions,
   ) {
-    this.requestAuthorization();
+    // this.requestAuthorization();
     return this.startPositioningUpdates(
       location,
       status,
